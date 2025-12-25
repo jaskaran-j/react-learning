@@ -15,3 +15,5 @@ for (const todo of todos){
 todos.forEach((todo) => {
     console.log(todo);
 });
+
+// continuing day 3 and moving onto day 4
