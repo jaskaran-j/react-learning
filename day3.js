@@ -16,6 +16,9 @@ todos.forEach((todo) => {
     console.log(todo);
 });
 
+
+
+
 // continuing day 3 and moving onto day 4
 // using .forEach() function to iterate through things
 todos.forEach((todo) => {console.log(todo);})
@@ -44,3 +47,17 @@ console.log(salePrices);
 
 // we can make it cleaner it this way
 // salePrices = prices.map(num => num/2);
+
+// .filter method
+// this method returns a new array that only contains items that
+// pass some kind of test
+// reaturn an array of things which return true on a test
+
+const scores = [50, 90, 30, 100];
+const passingScore = scores.filter(score => score>=50);
+console.log(passingScore);
+
+// practice ques
+// using same salePrices array create exoensiveItems price>9
+const expensiveItems = salePrices.filter(price => price>9);
+console.log(expensiveItems);
