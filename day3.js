@@ -17,3 +17,12 @@ todos.forEach((todo) => {
 });
 
 // continuing day 3 and moving onto day 4
+// using .forEach() function to iterate through things
+todos.forEach((todo) => {console.log(todo);})
+
+todos.forEach((todo) => {
+    console.log(`I need to ${todo}`);
+})
+
+
+// using .map
