@@ -26,3 +26,21 @@ todos.forEach((todo) => {
 
 
 // using .map
+// forEach function just return something as a result, whereas
+// .map transforms an array of data and return it as something,
+// with changes to data
+
+const number = [1,2,3];
+const doubled = number.map((num) => {return num * 2;});
+console.log(doubled);
+
+// here it will take an array, make user-specified changes to it
+// and store it somewhere
+
+// practice
+const prices = [10, 20, 30];
+const salePrices = prices.map((num) => {return num/2;});
+console.log(salePrices);
+
+// we can make it cleaner it this way
+// salePrices = prices.map(num => num/2);
